@@ -3699,9 +3699,18 @@ nav.nav-menu-show {
 
 /* line 53, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
 .slider-area.slider-area2 {
-  background-image: url(../img/icon/brycecanyon.JPG);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* line 53, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
+.back_im1 {
+  background-image: url(../img/icon/alps.png);
+}
+
+/* line 53, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
+.back_im2 {
+  background-image: url(../img/icon/brycecanyon.JPG);
 }
 
 /* line 58, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
