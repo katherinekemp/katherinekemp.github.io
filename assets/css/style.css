@@ -8357,8 +8357,8 @@ del {
 }
 .console-container {
   margin-top: 20px;
+  font-size:xx-large;
   font-family: "Playfair Display", serif;
-  font-size:3em;
   text-align:center;
   width:50%;
   display:block;
