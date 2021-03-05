@@ -3774,35 +3774,64 @@ nav.nav-menu-show {
 
 /* line 96, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
 .slider-area .slide-content h1 {
-  font-size: 151px;
+  font-size: 72px;
   font-weight: 400;
-  margin-bottom: 49px;
+  margin-bottom: 1px;
   color: #fff;
   line-height: 1.1;
   text-transform: capitalize;
   display: block;
 }
 
+/* line 96, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
+.slider-area .slide-content h4 {
+  font-size: 36px;
+  font-weight: 200;
+  color: #fff;
+  display: block;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 96, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-area .slide-content h1 {
-    font-size: 116px;
+    font-size: 58px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 96, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-area .slide-content h1 {
-    font-size: 87px;
+    font-size: 45px;
   }
 }
 
 @media (max-width: 575px) {
   /* line 96, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
   .slider-area .slide-content h1 {
-    font-size: 46px;
+    font-size: 25px;
     margin-bottom: 23px;
     line-height: 1.5;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 96, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
+  .slider-area .slide-content h4 {
+    font-size: 29px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 96, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
+  .slider-area .slide-content h4 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 96, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
+  .slider-area .slide-content h4 {
+    font-size: 14px;
   }
 }
 
