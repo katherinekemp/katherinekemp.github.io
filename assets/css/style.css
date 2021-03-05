@@ -224,7 +224,7 @@ p {
 
 /* line 35, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
 .bg-img-1 {
-  background-image: assets/img/icon/signature.JPG;
+  background-image: assets/img/icon/la.JPG;
 }
 
 /* line 38, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
@@ -3673,21 +3673,22 @@ nav.nav-menu-show {
 
 /* line 30, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
 .slider-bg1 {
-  background-image: url(../img/icon/signature.JPG);
+  background-color: #071112;
+  background-image: url(../img/icon/la.JPG);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 /* line 35, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
 .slider-bg2 {
-  background-image: url(../img/icon/signature.JPG);
+  background-image: url(../img/icon/la.JPG);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 /* line 40, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_h1-hero.scss */
 .slider-bg3 {
-  background-image: url(../img/icon/signature.JPG);
+  background-image: url(../img/icon/la.JPG);
   background-repeat: no-repeat;
   background-size: cover;
 }
