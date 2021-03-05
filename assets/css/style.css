@@ -8371,19 +8371,7 @@ del {
   margin:auto;
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  /* line 347, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
-  .console-container {
-    font-size: 2em;
-  }
-}
 
-@media (max-width: 575px) {
-  /* line 347, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_common.scss */
-  .console-container {
-    font-size: 1em;
-  }
-}
 
 .console-underscore {
   display:inline-block;
