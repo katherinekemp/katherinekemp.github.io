@@ -28,7 +28,6 @@ function consoleText(words, id) {
     } else if (letterCount === words[0].length + 1 && waiting === false) {
       waiting = true;
       window.setTimeout(function () {
-        x = -1;
         letterCount = 0;
         waiting = false;
       }, 1000)
@@ -37,6 +36,7 @@ function consoleText(words, id) {
       letterCount += x;
     }
   }, 120)
+
   window.setInterval(function () {
     if (visible === true) {
       con.className = 'console-underscore hidden'
@@ -44,7 +44,6 @@ function consoleText(words, id) {
 
     } else {
       con.className = 'console-underscore'
-
       visible = true;
     }
   }, 400)
