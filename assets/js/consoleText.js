@@ -13,6 +13,7 @@ function consoleText(words, id) {
   window.setInterval(function () {
 
     if (letterCount === 0 && waiting === false) {
+
       waiting = true;
       target.innerHTML = words[0].substring(0, letterCount)
       window.setTimeout(function () {
