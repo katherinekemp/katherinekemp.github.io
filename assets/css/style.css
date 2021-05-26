@@ -6197,7 +6197,6 @@ nav.nav-menu-show {
 
 /* line 1265, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
 .single-post-area .navigation-top {
-  padding-top: 15px;
   border-top: 1px solid #f0e9ff;
 }
 
@@ -6304,7 +6303,7 @@ nav.nav-menu-show {
 .single-post-area .navigation-area {
   border-bottom: 1px solid #eee;
   padding-bottom: 30px;
-  margin-top: 55px;
+  margin-top: 30px;
 }
 
 /* line 1369, C:/Users/HP/Desktop/Augst-HTML/297.Photography/Agriculture_Template/assets/scss/_blog_page.scss */
