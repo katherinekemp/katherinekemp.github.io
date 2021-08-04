@@ -1,5 +1,5 @@
 // function([string1, string2],target id,[color1,color2])   
-consoleText(['Hi, my name is Katie.', 'I study mechanical engineering and computer science at the University of Maryland.', 'Welcome to my website!'], 'text',);
+consoleText(['Hey! I\'m Katie.', 'I study mechanical engineering and computer science at the University of Maryland.', 'Welcome to my website!'], 'text',);
 
 function consoleText(words, id) {
   var prev = '';
