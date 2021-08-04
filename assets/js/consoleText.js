@@ -9,7 +9,7 @@ function consoleText(words, id) {
   var x = 1;
   var waiting = false;
   var target = document.getElementById(id)
-  target.setAttribute('style', 'color:' + colors[0])
+  target.setAttribute('style', 'color:' + colors[0] + 'font-family: Arial, Helvetica, sans-serif')
   window.setInterval(function () {
 
     if (letterCount === 0 && waiting === false) {
