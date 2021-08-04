@@ -2,7 +2,7 @@
 consoleText(['Hi, my name is Katie.', 'I study mechanical engineering and computer science at the University of Maryland.'], 'text',);
 
 function consoleText(words, id) {
-  colors = ['#fff'];
+  colors = ['#16161a'];
   var visible = true;
   var con = document.getElementById('console');
   var letterCount = 1;
