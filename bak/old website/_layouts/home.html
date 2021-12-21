@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+	<html>
+		<style>
+			head {
+				text-align: center;
+			}
+			body, html {
+				height: 100%;
+			}
+			body {
+				background-color: #ff8095;
+				background-image: url("homepage.JPG");
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center top; 
+				text-align: center;
+			}
+			footer {
+				position:fixed;
+   				bottom:0;
+				left:0;
+				right:0;
+				text-align: center;
+			}
+			div {text-align: center;}
+			h1 {}
+			p {}
+
+			li a {
+	    			color:white;
+			}
+		</style>
+		<head style="color:white;font-family:verdana;">
+			<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+			<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+			<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+			<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+			<link rel="manifest" href="/site.webmanifest">
+			<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body style="color:white;font-family:verdana;">
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/resume.pdf">Resume</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer style="color:white;">
+	    		<ul>
+	        		<li><a href="mailto:katherine.e.kemp@gmail.com">email</a></li>
+				<li><a href="https://www.linkedin.com/in/katherineekemp/">LinkedIn</a></li>
+	        		<li><a href="https://vsco.co/kkenmadrid/gallery">VSCO</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
