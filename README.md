@@ -6,7 +6,6 @@ Personal website for Katherine Kemp
 
 ## TerpConnect
 [https://terpconnect.umd.edu/kkemp](https://terpconnect.umd.edu/kkemp)
-test change
 
 ## GoDaddy
 [katherinekemp.com](https://katherinekemp.com/)
