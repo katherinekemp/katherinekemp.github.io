@@ -21,6 +21,6 @@ jobs:
           script: |
             cd katherinekemp.github.io
             git pull
-            cp ./* ../../pub/ -f
+            /bin/cp -r -f ./* ../../pub/
 # cd ..
 # cp -r katherinekemp.github.io/ ../pub/
