@@ -5,7 +5,7 @@ Personal website for Katherine Kemp
 [katherinekemp.github.io](https://katherinekemp.github.io)
 
 ## TerpConnect
-[https://terpconnect.umd.edu/kkemp](https://terpconnect.umd.edu/kkemp)
+[terpconnect.umd.edu/~kkemp/katherinekemp.github.io/](https://terpconnect.umd.edu/~kkemp/katherinekemp.github.io/)
 
 ## GoDaddy
 [katherinekemp.com](https://katherinekemp.com/)
