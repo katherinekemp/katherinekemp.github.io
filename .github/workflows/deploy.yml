@@ -3,8 +3,8 @@ name: Deploy workflow
 
 # Controls when the workflow will run
 on : 
+  workflow_dispatch:
   push:
-    workflow_dispatch:
     branches: [main]
 jobs:
   job_one:
@@ -21,3 +21,5 @@ jobs:
           script: |
             cd katherinekemp.github.io
             git pull
+            cd ..
+            cp -r katherinekemp.github.io/ ../pub/
