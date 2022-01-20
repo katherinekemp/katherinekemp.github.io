@@ -1,0 +1,22 @@
+# This is a basic workflow to help you get started with Actions
+name: Deploy workflow
+
+# Controls when the workflow will run
+on : 
+  push:
+    branches: [main]
+jobs:
+  job_one:
+    name: deploy
+    runs-on: Ubuntu-latest
+    steps:
+      - name: testing
+        uses: appleboy/ssh-action@master
+        with: 
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: |
+            cd katherinekemp.github.io
+            git pull
